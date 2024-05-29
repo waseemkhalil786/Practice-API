@@ -1,27 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <form>
-    <div class="container">
-        <div class="weather-card">
-            <h2 class="location">City, Country</h2>
-            <div class="weather-info">
-                <div class="icon"></div>
-                <div class="temperature">25°C</div>
-                <div class="description">Cloudy</div>
-            </div>
-            <input type="text" id="city-input" placeholder="Enter city">
-            <button id="search-btn">Search</button>
-        </div>
-    </div>
-    </form>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-    <script type="module" src="./app.js"></script>
-</body>
+    <body>
+        <form id="form">
+            <input type="text" id="search" placeholder="Search By Loaction" autocomplete="off">
+        </form>
+        <main id="main">
+
+        </main>
+        <script type="module" src="./app.js"></script>
+    </body>
+
 </html>
